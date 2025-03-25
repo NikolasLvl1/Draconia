@@ -2,6 +2,7 @@ import discord
 import os
 from dotenv import load_dotenv
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
+const keep_alive = require(`./keep_alive.js`);
 
 # Cargar variables de entorno
 load_dotenv()
